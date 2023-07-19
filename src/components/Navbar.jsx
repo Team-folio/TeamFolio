@@ -2,7 +2,7 @@
 
 function Navbar() {
   return (
-    <div>Navbar</div>
+      <div className="bg-indigo-500"> Navbar</div>
   )
 }
 

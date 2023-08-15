@@ -3,6 +3,7 @@ import React, {useState} from "react";
 import {BrowserRouter, Link, Route, Routes} from "react-router-dom"
 import { FiMenu } from "react-icons/fi";
 import {About, Home,Jobs, Projects, SignIn, SignUp} from "../pages"
+import Search from './Search';
 
 
 function Navbar() {
@@ -29,11 +30,7 @@ function Navbar() {
             <Link to="/about" className="text-black hover:underline">About</Link>
           </nav>
           {/* Search Input */}
-          <input
-            type="text"
-            className="rounded-full bg-slate-200 px-4 py-1 w-full max-w-md  text-sm outline-none"
-            placeholder="Search..."
-          />
+         <Search />
            </div>
 
           {/* Sign In and Sign Up */}

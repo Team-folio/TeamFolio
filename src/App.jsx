@@ -1,11 +1,12 @@
 import './index.css'
 import Navbar from '@/components/Navbar';
+import Hero from './components/hero/Hero';
 
 function App() {
   return (
     <>
-      <div className="text-lg font-semibold color-"></div>
-      <Navbar/>
+    <Navbar />
+    <Hero/>
     </>
   )
 }

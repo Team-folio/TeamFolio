@@ -1,4 +1,4 @@
-import { BeakerIcon } from '@heroicons/react/24/solid'
+
 import React, {useState} from "react";
 import {BrowserRouter, Link, Route, Routes} from "react-router-dom"
 import { FiMenu } from "react-icons/fi";
@@ -35,7 +35,7 @@ function Navbar() {
 
           {/* Sign In and Sign Up */}
           <nav className="hidden md:flex items-center gap-8 ml-4 font-semibold px-5">
-            <Link to="/signin" className="text-black hover:underline">Sign In</Link>
+            <Link to="/signin" className="text-black bg- px-4 py-2">Sign In</Link>
             <Link to="/signup" className="text-white bg-black rounded-full px-2 py-1 hover:underline">Sign Up</Link>
           </nav>
       </div>

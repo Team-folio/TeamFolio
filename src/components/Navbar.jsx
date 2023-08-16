@@ -52,7 +52,7 @@ function Navbar() {
             <Link to="/projects" className="block text-black mt-2 ">Projects</Link>
             <Link to="/about" className="block text-black mt-2 ">About</Link>
             <Link to="/signin" className="block text-black mt-2 ">Sign In</Link>
-            <Link to="/signup" className="block text-black mt-2 ">Sign Up</Link>
+            <Link to="/signup" className="block bg-black text-white rounded-md h-25  gap-8 self-stretch rounded-64  flex-row py-[0.75rem] px-[1.5rem] items-center w-50">Sign Up</Link>
           </div>
         )}
         <Routes>

@@ -2,7 +2,7 @@ import React from 'react'
 
 function Hero() {
   return (
-      <div className="bg-purple-600 p-40 pl-265 h-1/8  w-1440">
+      <div className="bg-black p-40 pl-265 h-1/8  w-1440">
           <div className="self-stretch overflow-hidden flex flex-col py-[2.5rem] px-[16.56rem] items-center  text-center text-[2.81rem] font-footer-logo">
               <div className="rounded-2xl w-[60rem] flex flex-col p-[2rem] box-border items-center justify-start z-[0]">
                   <div className="self-stretch flex flex-col items-center justify-start gap-[1.5rem]">
@@ -16,7 +16,7 @@ function Hero() {
                                   href="https://example.com" // Replace this with the URL of the website you want to link to
                                   target="_blank" // Opens the link in a new tab
                                   rel="noopener noreferrer" // Recommended for security reasons when using target="_blank"
-                                  className="h-38 rounded-md  gap-8 self-stretch rounded-64 flex flex-row py-[0.75rem] px-[1.5rem] items-center justify-center border-[2px] border-solid  bg-white text-purple-900 font-bold">
+                                  className="h-38 rounded-md  gap-8 self-stretch rounded-64 flex flex-row py-[0.75rem] px-[1.5rem] items-center justify-center border-[2px] border-solid  bg-white text-black font-bold">
                                   Create a new project
                               </a>
                           </div>
@@ -25,7 +25,7 @@ function Hero() {
                                   href="https://example.com" // Replace this with the URL of the website you want to link to
                                   target="_blank" // Opens the link in a new tab
                                   rel="noopener noreferrer" // Recommended for security reasons when using target="_blank"
-                                className=" h-38 rounded-md gap-8 self-stretch rounded-64 flex flex-row py-[0.75rem] px-[1.5rem] items-center justify-center border-[2px] border-solid  text-white font-bold">
+                                  className=" h-38 rounded-md gap-8 self-stretch rounded-64 flex flex-row py-[0.75rem] px-[1.5rem] items-center justify-center border-[2px] border-solid  text-white font-bold">
                                   Create a new project
                               </a>
                           </div>

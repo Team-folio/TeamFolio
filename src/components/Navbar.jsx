@@ -36,7 +36,7 @@ function Navbar() {
           {/* Sign In and Sign Up */}
           <nav className="hidden md:flex items-center gap-8 ml-4 font-semibold px-5">
             <Link to="/signin" className="text-black bg- px-4 py-2">Sign In</Link>
-            <Link to="/signup" className="bg-black text-white rounded-md h-25  gap-8 self-stretch rounded-64 flex flex-row py-[0.75rem] px-[1.5rem] items-center w-50">Sign Up</Link>
+            <Link to="/signup" className="bg-black text-white rounded-full h-25  gap-8 self-stretch rounded-64 flex flex-row py-[0.75rem] px-[1.5rem] items-center w-50">Sign Up</Link>
           </nav>
         </div>
         {/* Mobile Menu */}

@@ -17,7 +17,7 @@ function Search() {
               </svg>
           </span>
           <input
-              className="w-full bg-white placeholder:italic border border-slate-300 rounded-md py-2 pl-10 pr-4 focus:outline-none  "
+              className="w-full bg-white placeholder:italic border border-slate-300 rounded-full py-2 pl-10 pr-4 focus:outline-none  "
               placeholder="Search"
               type="text"
           />

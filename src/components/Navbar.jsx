@@ -15,8 +15,8 @@ function Navbar() {
   return (
     <BrowserRouter>
       <header
-        className='fixed bg-white h-14 w-full shadow-md  px-2 py-2 md:px-4 '>
-        <div className='flex items-center justify-between '>
+        className='fixed bg-white h-14 w-full shadow-md  px-2 py-2 md:px-4'>
+        <div className='flex items-center justify-between'>
           {/**<BeakerIcon className="h-6 w-6 text-blue-500" />*/}
           <div className='flex items-center md:gap-5 gap-2'>
             <Link to="/"
@@ -55,15 +55,17 @@ function Navbar() {
             <Link to="/signup" className="block bg-black text-white rounded-md h-25  gap-8 self-stretch rounded-64  flex-row py-[0.75rem] px-[1.5rem] items-center w-50">Sign Up</Link>
           </div>
         )}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/About" element={<About />} />
-          <Route path="/Projects" element={<Projects />} />
-          <Route path="/Jobs" element={<Jobs />} />
-          <Route path="/SignIn" element={<SignIn />} />
-          <Route path="/SignUp" element={<SignUp />} />
-        </Routes>
       </header>
+      <div className="pt-14">
+        <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/About" element={<About />} />
+            <Route path="/Projects" element={<Projects />} />
+            <Route path="/Jobs" element={<Jobs />} />
+            <Route path="/SignIn" element={<SignIn />} />
+            <Route path="/SignUp" element={<SignUp />} />
+          </Routes>
+      </div>
     </BrowserRouter>
 
   )

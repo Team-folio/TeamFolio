@@ -1,12 +1,11 @@
 import React, { useState } from 'react';
 import Divider from '../ui/Divider';
-import googleIcon from '../../assets/img/google_300221.png';
-import facebookIcon from '../../assets/img/facebook.svg.png';
-import linkedinIcon from '../../assets/img/linkedin.png';
 import { Link } from 'react-router-dom';
 import SocialButton from '../ui/SocialButton';
 import Checkbox from '../ui/Checkbox';
 import InputField from '../ui/InputField';
+// icons
+import {SiLinkedin, SiFacebook, SiGoogle} from "react-icons/si"
 
 function SignInForm() {
     // State to store form data
@@ -70,9 +69,9 @@ function SignInForm() {
             {/* Social Media Buttons */}
             <div className='flex justify-center items-center w-full'>
                 <div className='flex space-x-4'>
-                    <SocialButton icon={googleIcon} alt={'google'} onClick={(e) => console.log('#')} />
-                    <SocialButton icon={facebookIcon} alt={'facebook'} onClick={(e) => console.log('#')} />
-                    <SocialButton icon={linkedinIcon} alt={'linkedin'} onClick={(e) => console.log('#')} />
+                    <SocialButton icon={<SiGoogle/>} alt={'linkedin'} onClick={(e) => console.log('#')} /> 
+                    <SocialButton icon={<SiFacebook/>} alt={'linkedin'} onClick={(e) => console.log('#')} /> 
+                    <SocialButton icon={<SiLinkedin/>} alt={'linkedin'} onClick={(e) => console.log('#')} /> 
                 </div>
             </div>
 

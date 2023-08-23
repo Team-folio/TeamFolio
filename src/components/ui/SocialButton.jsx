@@ -1,9 +1,11 @@
 import React from 'react'
 
-function SocialButton({onClick, icon, alt}) {
+function SocialButton({onClick, icon}) {
     return (
         <button className='rounded-full p-2' onClick={e=>onClick()}>
-            <img src={icon} alt={alt} className='w-9 h-9' />
+            <span className=' text-purple-500 text-3xl hover:text-purple-400' >
+                {icon}
+            </span>
         </button>
     );
 }

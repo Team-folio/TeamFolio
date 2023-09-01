@@ -59,7 +59,5 @@ export default {
       inherit: "inherit",
     },
   },
-  corePlugins: {
-    preflight: false,
-  },
+  corePlugins: {},
 };

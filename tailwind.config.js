@@ -32,6 +32,12 @@ export default {
         "text-body-light": "#425466",
         "theme-dark-default": "#16192c",
       },
+      fontFamily: {
+        "footer-regular": "Inter",
+        "footer-logo": "GRIFTER",
+        "plus-jakarta-sans": "'Plus Jakarta Sans'",
+        "liberation-sans": "'Liberation Sans'",
+      },
     },
   },
   plugins: [],

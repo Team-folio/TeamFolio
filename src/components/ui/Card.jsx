@@ -19,12 +19,13 @@ const Card = () => {
           <h1 className="flex-1 relative tracking-[-0.02em] leading-[20px] font-semibold">
             Headline
           </h1>
-          <div className="rounded-[1.76px] bg-darkturquoise w-[26px] h-[26px] flex flex-col items-center justify-center">
-            <FaChevronUp className="text-white text-xl" />
-          </div>
           <div className="rounded-[1.76px] bg-limegreen w-[26px] h-[26px] flex flex-col items-center justify-center">
             <FaChevronDown className="text-white text-xl" />
           </div>
+          <div className="rounded-[1.76px] bg-darkturquoise w-[26px] h-[26px] flex flex-col items-center justify-center">
+            <FaChevronUp className="text-white text-xl" />
+          </div>
+
         </div>
         <div className="flex flex-row items-center justify-center gap-8">
           <p className="flex-1 relative tracking-[-0.02em] leading-[20px] font-light">

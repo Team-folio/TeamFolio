@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
+    "@supabase/supabase-js": "^2.33.1",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.28.0",
     "eslint-plugin-prettier": "^5.0.0",
